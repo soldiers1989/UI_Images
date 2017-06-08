@@ -1,0 +1,53 @@
+    case "83":
+                    //修改用户资料（昵称）
+                    strReturnValue = new AppGateway_ashx().UpdateNickName(context, strInfo);
+                    break;
+                case "84":
+                    //修改用户资料（图像）
+                    strReturnValue = new AppGateway_ashx().UpdateUsersFace(context, auth, strInfo);
+                    break;
+                case "85":
+                    //添加圈子列表
+                    strReturnValue = new AppGateway_ashx().AddCircleList(context, auth, strInfo);
+                    break;
+                case "86":
+                    //圈子列表
+                    strReturnValue = new AppGateway_ashx().CircleList(context, auth, strInfo);
+                    break;
+                case "87":
+                    //圈子点赞
+                    strReturnValue = new AppGateway_ashx().CircleLike(context, auth, strInfo);
+                    break;
+                case "88":
+                    //添加评价
+                    strReturnValue = new AppGateway_ashx().CircleComment(context, auth, strInfo);
+                    break;
+                case "89":
+                    //圈子列表详情头部
+                    strReturnValue = new AppGateway_ashx().CircleListDetailsTop(context, auth, strInfo);
+                    break;
+                case "90":
+                    //大神（发起方案）
+                    strReturnValue = new AppGateway_ashx().OkamiBuy(context, auth, strInfo);
+                    break;
+                case "91":
+                    //大神（跟单）
+                    strReturnValue = new AppGateway_ashx().followbuy(context, auth, strInfo);
+                    break;
+                case "92":
+                    //大神推荐
+                    strReturnValue = new AppGateway_ashx().OrdinaryGod(context, auth, strInfo);
+                    break;
+                case "93":
+                    //显示（昵称,face）
+                    strReturnValue = new AppGateway_ashx().UserFace(context, auth);
+                    break;
+                case "94":
+                    //圈子列表详情评价
+                    strReturnValue = new AppGateway_ashx().CircleListDetailsPJ(context, auth, strInfo);
+                    break;
+                case "95":
+                    //我的消息
+                    strReturnValue = new AppGateway_ashx().MyComment(context, auth, strInfo);
+                    break;
+                default:
