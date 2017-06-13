@@ -26,22 +26,6 @@
                     //圈子列表详情头部
                     strReturnValue = new AppGateway_ashx().CircleListDetailsTop(context, auth, strInfo);
                     break;
-                case "90":
-                    //大神（发起方案）
-                    strReturnValue = new AppGateway_ashx().OkamiBuy(context, auth, strInfo);
-                    break;
-                case "91":
-                    //大神（跟单）
-                    strReturnValue = new AppGateway_ashx().followbuy(context, auth, strInfo);
-                    break;
-                case "92":
-                    //大神推荐
-                    strReturnValue = new AppGateway_ashx().OrdinaryGod(context, auth, strInfo);
-                    break;
-                case "93":
-                    //显示（昵称,face）
-                    strReturnValue = new AppGateway_ashx().UserFace(context, auth);
-                    break;
                 case "94":
                     //圈子列表详情评价
                     strReturnValue = new AppGateway_ashx().CircleListDetailsPJ(context, auth, strInfo);

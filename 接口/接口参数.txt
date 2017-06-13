@@ -1,0 +1,163 @@
+ //添加图片
+    //function jj()
+    //{
+    //    var authdate = '{"loginType":"1","app_key":"123456","imei":"null","os":"Android","os_version":"5.0","app_version":"5.3.14","source_id":"Yek_test","ver":"0.9","UID":"144","crc":"58ac17ff5da1728adab3f850f0955228","time_stamp":"null"}';
+    //    var infodate = '{ "images": "/9j/4AAQSkZJRgABAQAAAQABAAD/" }';
+
+    //    var data = { info: encodeURI(infodate), opt: encodeURI(84), auth: encodeURI(authdate) };
+    //    $.ajax({
+    //        type: "post",
+    //        url: "../ajax/AppGateway.ashx",
+    //        data: data,
+    //        dataType: "json",
+
+    //        success: function (data)
+    //        {
+    //            alert(data);
+    //        }
+    //    })
+
+    //}
+    //
+
+    //添加圈子列表
+    //function jj() {
+'{"loginType":"1","app_key":"123456","imei":"862963034216867","os":"Android","os_version":"5.0","app_version":"5.3.14","source_id":"Yek_test","ver":"0.9","UID":"140","crc":"88d39ab0128928159c158516ff1d5857","time_stamp":"20170512040345"}';
+    //    var infodate = '"{Title":"fbsfdbdsfbdsbbdsffbs","Images":"[]"}';
+    //    var data = { info: encodeURI(infodate), opt: encodeURI(85), auth: encodeURI(authdate) };
+    //    $.ajax({
+    //        type: "post",
+    //        url: "../ajax/AppGateway.ashx",
+    //        data: data,
+    //        dataType: "json",
+    //        success: function (data) {
+    //            alert(data);
+    //        }
+    //    })
+
+    //}
+    //点赞
+    //function jj() {
+    //    var authdate = '{"loginType":"1","app_key":"123456","imei":"null","os":"Android","os_version":"5.0","app_version":"5.3.14","source_id":"Yek_test","ver":"0.9","UID":"140","crc":"58ac17ff5da1728adab3f850f0955228","time_stamp":"null"}';
+    //    var infodate = '{"CircleId":"5"}';
+    //        var datat = { info: encodeURI(infodate), opt: encodeURI(80), auth: encodeURI(authdate) };
+    //        $.ajax({
+    //            type: "get",
+    //            url: "../ajax/AppGateway.ashx",
+    //            data: datat,
+    //            dataType: "json",
+
+    //            success: function (data) {
+    //                alert(data);
+    //            }
+    //        })
+    //}
+
+    ////添加评论
+    //function jj() {
+    //    var authdate = '{"loginType":"1","app_key":"123456","imei":"null","os":"Android","os_version":"5.0","app_version":"5.3.14","source_id":"Yek_test","ver":"0.9","UID":"140","crc":"58ac17ff5da1728adab3f850f0955228","time_stamp":"null"}';
+    //    var infodate = '{"CircleId":"1","Centent":"ghhdfg"}';
+    //        var datat = { info: encodeURI(infodate), opt: encodeURI(88), auth: encodeURI(authdate) };
+    //        $.ajax({
+    //            type: "get",
+    //            url: "../ajax/AppGateway.ashx",
+    //            data: datat,
+    //            dataType: "json",
+
+    //            success: function (data) {
+    //                alert(data);
+    //            }
+    //        })
+    //}
+
+
+    //详情
+    //function jj() {
+    //    var authdate = '{"loginType":"1","app_key":"123456","imei":"null","os":"Android","os_version":"5.0","app_version":"5.3.14","source_id":"Yek_test","ver":"0.9","UID":"140","crc":"58ac17ff5da1728adab3f850f0955228","time_stamp":"null"}';
+    //    var infodate = '{"CircleId":"89"}';
+    //        var datat = { info: encodeURI(infodate), opt: encodeURI(94), auth: encodeURI(authdate) };
+    //        $.ajax({
+    //            type: "get",
+    //            url: "../ajax/AppGateway.ashx",
+    //            data: datat,
+    //            dataType: "json",
+
+    //            success: function (data) {
+    //                alert(data);
+    //            }
+    //        })
+    //}
+
+
+          //圈子列表
+
+    function jj() {
+        var authdate = '{"loginType":"1","app_key":"123456","imei":"null","os":"Android","os_version":"5.0","app_version":"5.3.14","source_id":"Yek_test","ver":"0.9","UID":"-1","crc":"58ac17ff5da1728adab3f850f0955228","time_stamp":"null"}';
+        var infodate = '{"requestType":"1","pageIndex":"1","pageSize":"10"}';
+        var datat = { info: encodeURI(infodate), opt: encodeURI(86), auth: encodeURI(authdate) };
+        $.ajax({
+            type: "get",
+            url: "../ajax/AppGateway.ashx",
+            data: datat,
+            dataType: "json",
+
+            success: function (data) {
+                alert(data);
+            }
+        })
+    }
+
+        //修改昵称
+    //function jj() {
+    //    var authdate = '{"loginType":"1","app_key":"123456","imei":"null","os":"Android","os_version":"5.0","app_version":"5.3.14","source_id":"Yek_test","ver":"0.9","UID":"140","crc":"58ac17ff5da1728adab3f850f0955228","time_stamp":"null"}';
+    //    var infodate = '{"uid":"140","NickName":"bbb"}';
+    //    var datat = { info: encodeURI(infodate), opt: encodeURI(83), auth: encodeURI(authdate) };
+    //    $.ajax({
+    //        type: "get",
+    //        url: "../ajax/AppGateway.ashx",
+    //        data: datat,
+    //        dataType: "json",
+
+    //        success: function (data) {
+    //            alert(data);
+    //        }
+    //    })
+    //}
+
+
+
+    //显示昵称
+    //function jj() {
+    //    var authdate = '{"loginType":"1","app_key":"123456","imei":"862963034216867","os":"Android","os_version":"5.0","app_version":"1.0.0","source_id":"Yek_test","ver":"0.9","UID":"140","crc":"306edeac99804f451d14226220bbab3b","time_stamp":"20170601013004"}';
+    //    var infodate = '{}';
+    //    var data = { info: encodeURI(infodate), opt: encodeURI(93), auth: encodeURI(authdate) };
+    //    $.ajax({
+    //        type: "post",
+    //        url: "../ajax/AppGateway.ashx",
+    //        data: data,
+    //        dataType: "json",
+
+    //        success: function (data) {
+    //            alert(data);
+    //        }
+    //    })
+
+    //}
+
+
+    //function jj() {
+    //    var authdate = '{"loginType":"1","app_key":"123456","imei":"862963034216867","os":"Android","os_version":"5.0","app_version":"1.0.0","source_id":"Yek_test","ver":"0.9","UID":"142","crc":"306edeac99804f451d14226220bbab3b","time_stamp":"20170601013004"}';
+    //    var infodate = '{"MessageType":2,"PageSize":10,"PageIndex":1}';
+    //    var data = { info: encodeURI(infodate), opt: encodeURI(95), auth: encodeURI(authdate) };
+    //    $.ajax({
+    //        type: "post",
+    //        url: "../ajax/AppGateway.ashx",
+    //        data: data,
+    //        dataType: "json",
+
+    //        success: function (data) {
+    //            alert(data);
+    //        }
+    //    })
+
+    //}
